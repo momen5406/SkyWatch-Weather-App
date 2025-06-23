@@ -19,7 +19,7 @@ A simple and responsive web application that displays the current weather and fo
 
 ## 🌐 Live Demo
 
-<a href="https://momen5406.github.io/SkyWatch-Weather-App/">Click to view Live Demo</a>
+<a href="https://momen5406.github.io/SkyWatch-Weather-App/" target="_blank">Click to view Live Demo</a>
 
 ## 🛠️ Technologies Used
 
