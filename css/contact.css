@@ -1,0 +1,82 @@
+.breadcrumb {
+  background-color: var(--grey);
+  border-radius: 50px;
+
+  a, i {
+    font-size: .8125rem;
+    color: rgb(191, 193, 200);
+    text-decoration: none;
+  }
+}
+
+main {
+  @media (max-width: 768px) {
+    .row {
+      --bs-gutter-x: 0;
+    }
+  }
+  .map {
+    background-color: var(--grey);
+    padding: 0;
+    height: fit-content;
+
+    .icon {
+      display: flex;
+      align-items: center;
+
+      i {
+        color: var(--blue);
+        margin-right: 10px;
+      }
+
+      p {
+        margin: 0;
+        font-size: .875rem;
+        font-weight: 300;
+        color: rgb(191, 193, 200);
+      }
+    }
+  }
+
+  .contact {
+    h3 {
+      font-size: 2.25rem;
+      font-weight: 300;
+    }
+
+    p {
+      font-size: .875rem;
+      color: rgb(191, 193, 200);
+    }
+
+    form > div {
+      --bs-gutter-x: 10px;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      outline: none;
+      border: 2px solid var(--grey);
+      padding: 10px 20px;
+      background-color: transparent;
+      border-radius: 50px;
+      transition: .3s ease-in-out;
+
+      &:hover, &:focus {
+        border-color: var(--blue);
+      }
+    }
+
+    form textarea {
+      border-radius: 20px;
+      height: 200px;
+    }
+
+    form button {
+      position: relative;
+      top: 0;
+      right: 0;
+    }
+  }
+}
